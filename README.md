@@ -1,4 +1,4 @@
-# ME Assignment
+# MobiusEngine Assignment
 
 This is a simple **React** application bootstrapped with **Vite**.
 
