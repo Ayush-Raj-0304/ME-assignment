@@ -3,17 +3,17 @@ import FeatureCard from './FeatureCard';
 const WhyChooseUs = () => {
   const features = [
     {
-      icon: './src/assets/wcu1.png',
+      icon: '/wcu1.png',
       title: 'Tried, Tested, Trusted',
       description: 'Built by folks with 40+ years in tech and hiring — we know the game, and we’ve got your back.'
     },
     {
-      icon: './src/assets/wcu2.png',
+      icon: '/wcu2.png',
       title: 'Real People, Real Help',
       description: 'A hands-on team that actually cares — guiding you through every twist in your career path.'
     },
     {
-      icon: './src/assets/wcu3.png',
+      icon: '/wcu3.png',
       title: 'Beat The Line',
       description: 'We search, shortlist, and apply for you, so your name shows up first — every single day.'
     }

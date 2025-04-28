@@ -12,7 +12,7 @@ const Hero = () => {
           <Button text="Get Started →" isPrimary={false} />
         </div>
         <div className='absolute top-1/2 right-1 size-64'>
-          <img src="src/assets/book.png" alt="" />
+          <img src="/book.png" alt="" />
         </div>
       </div>
     </section>

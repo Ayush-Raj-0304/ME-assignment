@@ -4,13 +4,13 @@ const AboutUs = () => {
   const teamMembers = [
     {
       name: 'Ashwin',
-      image: './src/assets/Ashwin.png',
+      image: '/ashwin.png',
       bio: 'is the founder of mobiusengine.ai. He is an accomplished senior executive with over 20 years of experience in cloud infrastructure and financial services. With over 2 decades of experience at Google and JP Morgan, Ashwin held various product and GTM roles. Ashwin is an MBA holder from Yale University. Ashwin &apos vision with Mobius is to give job seekers a significant advantage in securing the roles of their dreams.',
       linkedin: '#'
     },
     {
       name: 'Nicole',
-      image: './src/assets/Nicole.png',
+      image: '/Nicole.png',
       bio: 'is an Executive coach at Mobius specializing in resume builds and career advisory. With a B.S. in Business Administration from UC Berkeley and 7+ years of experience in AI-driven product strategy, she has seen firsthand how the proper positioning opens doors. She takes a targeted, results-driven approach to help clients confidently stand out and land roles that truly match their skills and potential.',
       linkedin: '#'
     }
@@ -18,7 +18,7 @@ const AboutUs = () => {
   
   return (
     <div
-      className="min-h-screen bg-cover bg-center relative bg-[url(./src/assets/rectangle.png)]">
+      className="min-h-screen bg-cover bg-center relative bg-[url(/Rectangle.png)]">
 
       <section className="py-16 px-6 text-white">
       <div className="items-centermax-w-full px-[150px] ">

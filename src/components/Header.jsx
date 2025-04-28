@@ -5,7 +5,7 @@ const Header = () => {
   const navItems = ['Home', 'About Us', 'Plans', 'Testimonials', 'Privacy Policy', 'More'];
   
   return (
-    <header className="flex justify-between items-center p-4 text-white">
+    <header className="flex justify-between items-center p-4 px-10 text-white">
       <Logo />
       <nav className="hidden md:block pr-6">
         <ul className="flex space-x-6">

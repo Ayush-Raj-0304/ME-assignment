@@ -19,7 +19,7 @@ const AdvancePlan = () => {
             <ul className="space-y-2">
               {features.map((feature, index) => (
                 <li key={index} className="flex items-start text-white ">
-                  <img className='pr-2 object-none' src="./src/assets/tick.png" alt="" />
+                  <img className='pr-2 object-none' src="/tick.png" alt="" />
                   <span className="text-lg">{feature}</span>
                 </li>
               ))}
