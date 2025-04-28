@@ -21,7 +21,7 @@ const PlanCard = ({ name, price, features, isPromo, isPopular }) => {
       <ul className="mb-6 space-y-2 mb-[11vh]">
         {features.map((feature, index) => (
           <li key={index} className="flex items-start">
-            <img className='pr-2 object-none' src="src/assets/tick.png" alt="" />
+            <img className='pr-2 object-none' src="./src/assets/tick.png" alt="" />
             <span className="text-sm text-[#0649E7] text-md">{feature}</span>
           </li>
         ))}

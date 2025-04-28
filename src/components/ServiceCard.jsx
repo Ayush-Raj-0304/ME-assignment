@@ -12,7 +12,7 @@ const ServiceCard = ({ title, subtitle, price, oneTime, features }) => {
       <ul className="mb-[11vh] space-y-2">
         {features.map((feature, index) => (
           <li key={index} className="flex items-start">
-            <img className='pr-2 object-none' src="src/assets/tick.png" alt="" />
+            <img className='pr-2 object-none' src="./src/assets/tick.png" alt="" />
             <span className="text-sm text-[#0649E7]">{feature}</span>
           </li>
         ))}

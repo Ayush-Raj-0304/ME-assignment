@@ -2,7 +2,7 @@ const TestimonialCard = ({ text, icon }) => {
     return (
       <div className="border border-[#0649E7] rounded-3xl overflow-hidden">
         <div className="h-32  bg-gray-50 flex items-center justify-center">
-          <img src="src/assets/play.png" alt="" />
+          <img src="./src/assets/play.png" alt="" />
         </div>
         <div className="p-6 bg-[#0649E7] text-white relative">
           <p className="text-sm mb-6">{text}</p>

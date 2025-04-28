@@ -18,7 +18,7 @@ function App() {
       <div>
         {/* Background image and layout */}
         <div
-          className="min-h-screen bg-cover bg-center relative bg-[url(src/assets/bg.png)]">
+          className="min-h-screen bg-cover bg-center relative bg-[url(./src/assets/bg.png)]">
           <Header /> {/* The Header stays on top of every page */}
           <Hero/>
         </div>
